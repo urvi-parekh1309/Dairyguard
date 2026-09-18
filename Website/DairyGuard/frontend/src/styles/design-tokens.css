@@ -1,0 +1,67 @@
+:root {
+  /* Dark Modern UI Color Palette */
+  --bg-primary: #080D18;
+  --bg-secondary: #0F172A;
+  --bg-surface: #141F36;
+  --bg-card: rgba(19, 31, 56, 0.78);
+  --bg-card-hover: rgba(27, 44, 78, 0.9);
+  --bg-glass: rgba(15, 23, 42, 0.75);
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.12);
+  --border-focus: rgba(16, 185, 129, 0.6);
+  --border-glass: rgba(255, 255, 255, 0.18);
+
+  /* Primary Dairy-Tech Accents */
+  --accent-emerald: #10B981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.3);
+  --accent-cyan: #06B6D4;
+  --accent-cyan-glow: rgba(6, 182, 212, 0.3);
+  --accent-blue: #3B82F6;
+  --accent-blue-glow: rgba(59, 130, 246, 0.3);
+
+  /* Status Colors */
+  --status-safe: #10B981;
+  --status-warning: #F59E0B;
+  --status-critical: #EF4444;
+  --status-neutral: #94A3B8;
+
+  /* Typography Colors - High Contrast */
+  --text-primary: #FFFFFF;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-inverse: #080D18;
+
+  /* Typography Font Families */
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Typography Scale Tokens */
+  --font-size-xs: 0.85rem;
+  --font-size-sm: 0.95rem;
+  --font-size-base: 1.05rem;
+  --font-size-md: 1.15rem;
+  --font-size-lg: 1.35rem;
+  --font-size-xl: 1.65rem;
+  --font-size-2xl: 2.2rem;
+  --font-size-3xl: 3rem;
+
+  /* Glassmorphism & Shadows */
+  --glass-blur: blur(14px);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.55);
+  --shadow-glow-emerald: 0 0 24px rgba(16, 185, 129, 0.35);
+  --shadow-glow-cyan: 0 0 24px rgba(6, 182, 212, 0.35);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
